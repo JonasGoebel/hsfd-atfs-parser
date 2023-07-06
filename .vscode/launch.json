@@ -7,10 +7,17 @@
 
         {
             "type": "java",
-            "name": "Build Parser",
+            "name": "Build Main",
             "request": "launch",
             "mainClass": "javacc",
             "args": "main.jj"
+        },
+        {
+            "type": "java",
+            "name": "Build Rechner",
+            "request": "launch",
+            "mainClass": "javacc",
+            "args": "rechner.jj"
         },
         {
             "type": "java",
